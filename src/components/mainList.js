@@ -93,15 +93,15 @@ class mainList extends Component {
     const items = this.props.items.items;
     const filterBest1 = items.filter(
       (item) =>
-        item.nombre === "caja grande blanca" ||
-        item.nombre === "caja envejecida" ||
-        item.nombre == "caja natural grande" ||
-        item.nombre == "bandeja 1"
+        item.nombre === "caja feliz dia" ||
+        item.nombre === "caja de mimbre pequeña" ||
+        item.nombre == "Caja de corazon" ||
+        item.nombre == "cajita de madera"
     );
     const filterBest2 = items.filter(
       (item) => item.categoria === "caja natural"
     );
-    console.log(filterBest1);
+    
 
     return (
       <div className="main-listContainer">
