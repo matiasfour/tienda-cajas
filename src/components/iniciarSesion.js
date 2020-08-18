@@ -43,7 +43,7 @@ class iniciarSesion extends Component {
 
                if(this.state.success == "Cargando.."){ 
                    setTimeout(() => {
-                    window.location.href ="https://tienda-cajas.herokuapp.com/";
+                    window.location.href ="https://tienda-cajas.vercel.app/";
                    },1000)
                    
                 }
@@ -59,7 +59,7 @@ class iniciarSesion extends Component {
 
     render() {
         
-      if(this.state.redirect === "/") {
+      if(this.state.redirect === "https://tienda-cajas.vercel.app/") {
 
        return  <Redirect to={`${this.state.redirect}`} />
 
