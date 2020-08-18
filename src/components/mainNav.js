@@ -30,7 +30,7 @@ class mainNav extends Component {
     handleLogout = () => {
         this.props.logout()
         localStorage.clear();
-        window.location.href = "https://tienda-cajas.herokuapp.com/"
+        window.location.href = "https://tienda-cajas.vercel.app/"
         this.setState({redirect: '/'})
         }
 
