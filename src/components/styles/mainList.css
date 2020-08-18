@@ -1,0 +1,601 @@
+.main-listContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+  
+  
+}
+
+
+
+.main-title-list {
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.bestSellers {
+    width: 100%;
+   
+}
+
+.main-list {
+   
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+     border: 0.4px solid rgb(231, 231, 231);
+  
+}
+
+.main-asideInfo {
+    width: 100%;
+    height: 450px;
+   
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+
+
+.customBoxesInfo {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.customBoxesInfo h2 {
+    font-size: 25px;
+}
+
+.customBoxesInfo a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.comoComprar {
+    border-top: 1px solid gray;
+    padding: 20px 0px;
+}
+
+.pasos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.comoComprar h2 {
+    background-color: gray;
+    color: white;
+    padding: 20px 10px;
+    
+}
+
+.paso {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 400px;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+.paso h3 {
+    text-decoration: underline;
+}
+
+.paso ul {
+    text-align: left;
+}
+
+.paso ul li {
+    font-size: 20px;
+}
+
+
+
+
+.btn-aside {
+    background-color: rgb(95, 95, 95);
+    color: white;
+    font-size: 20px;
+    padding: 15px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 200px;
+    margin: 50px;
+}
+
+.container-list-inside {
+
+    width: 500px;
+    display: flex;
+     border: 0.4px solid rgb(231, 231, 231);
+    height: 280px;
+    overflow-x: hidden;
+ 
+  
+
+}
+
+.main-list button {
+    outline: none;
+}
+
+.main-list button:hover {
+    outline-color: black;
+    outline-style: outset;
+    outline-width: 2px;
+}
+.main-list button:active {
+    background-color: rgb(0, 80, 0);
+}
+
+.main-producto {
+    margin: 20px;
+    display: flex;
+    width: 200px;
+    min-width: 200px;
+    flex-direction: column;
+    align-items: center;
+   /* box-shadow:  -11px -2px 15px -7px rgba(0,0,0,0.41);*/
+    border: 0.4px solid rgb(231, 231, 231);
+}
+
+.main-opciones {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.main-opciones a, .main-opciones button {
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-family: 'Josefin Sans';
+    cursor: pointer;
+}
+
+.main-producto:hover {
+    /*box-shadow: -11px -2px 15px -7px rgba(0,0,0,0.6);*/
+    border: 1px solid black
+}
+
+.main-producto img {
+    width: 100px;
+   
+}
+
+.main-producto .main-asideItems img {
+    width: 250px;
+}
+
+
+/*Carousle items */
+
+
+
+.multiCarousel {
+    width: 900px ;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+.carouselContainer {
+    width: 400px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.carousel-producto {
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+}
+
+.imgCarouselItem {
+    width: 100%;
+}
+
+
+
+.quienesSomos {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #eeeeee;
+
+    
+}
+.quienesSomos h2{
+    margin-top: 20px;
+}
+
+
+.quienesSomosInfo {
+    width: 820px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+  
+}
+
+.quienesSomosInfo p {
+    width: 380px;
+    text-align: left;
+}
+.quienesSomosInfo img {
+    width: 400px;
+}
+
+
+.carouselItem img {
+    width: 100%;
+   
+}
+
+.combinada {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 580px;
+    height: 430px;
+    background-color: black;
+    border-radius: 3px;
+}
+
+
+
+.comb2 {
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.foto2comb {
+    max-height: 384px;
+    
+}
+
+.combinada img:hover {
+    outline: 3px solid white;
+   
+}
+
+
+
+/* media queries */ 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)  {
+
+    .quienesSomos h2 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .quienesSomosInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+    }
+
+    .quienesSomosInfo img {
+        width: 280px;
+    }
+
+    .quienesSomosInfo p {
+        margin-top: 10px;
+        font-size: 15px;
+        width: 340px ;
+        text-align: center;
+    }
+    .bestSellers {
+        margin-bottom: 200px;
+     
+    }
+
+    .main-list {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bestSellers h2 {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    .main-asideInfo {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 200px;
+    }
+
+    .combinada {
+        display: flex;
+        flex-direction: column;
+        height: 820px;
+       
+    }
+    .combinada img {
+        margin: 10px 0px;
+    }
+
+
+
+    .comb2 {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    .comoComprar {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .comoComprar h2 {
+        font-size: 18px;
+
+    }
+
+    .pasos {
+        padding: 0px;
+        margin: 0px;
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       border: none;
+    }
+
+    .paso {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid rgb(97, 96, 96);
+       
+        
+    }
+
+    .paso ul {
+        text-align: left;
+        margin: 0px;
+        padding-left: 20px;
+    }
+
+
+
+    .paso ul li p {
+        font-size: 17px;
+        margin-right: 15px;
+    }
+
+
+  
+
+
+
+ }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) and (max-width: 767px) {
+
+    .quienesSomos h2 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .quienesSomosInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+    }
+
+    .quienesSomosInfo img {
+        width: 340px;
+    }
+
+    .quienesSomosInfo p {
+        margin-top: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .bestSellers {
+        height: 600px;
+        margin-bottom: 300px;
+    }
+
+    .bestSellers h2 {
+        margin-top: 20px;
+    }
+
+    .main-asideInfo {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+     
+    }
+
+
+    .bestSellers .main-list {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .main-asideInfo {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 200px;
+    }
+
+    .combinada {
+        display: flex;
+        flex-direction: column;
+        height: 820px;
+       
+    }
+    .combinada img {
+        margin: 10px 0px;
+    }
+
+
+
+    .comb2 {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    .comoComprar {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .comoComprar h2 {
+        font-size: 22px;
+
+    }
+
+    .pasos {
+        padding: 0px;
+        margin: 0px;
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       border: none;
+    }
+
+    .paso {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid rgb(97, 96, 96);
+       
+        
+    }
+
+    .paso ul {
+        text-align: left;
+        margin: 0px;
+        padding-left: 20px;
+    }
+
+
+
+    .paso ul li p {
+        font-size: 17px;
+        margin-right: 15px;
+    }
+
+
+ 
+              
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .quienesSomosInfo {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      
+    }
+
+    .quienesSomosInfo img {
+        width: 340px;
+        margin-left: 20px;
+    }
+
+    .quienesSomosInfo p {
+        margin-top: 10px;
+        font-size: 16px;
+        width: 350px;
+        margin-right: 20px;
+      
+    }
+    .bestSellers {
+        height: 400px;
+      
+    }
+
+
+    .bestSellers h2 {
+        margin-top: 20px;
+    }
+
+    .main-asideInfo {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+     
+    }
+
+   
+
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width: 1249px) {
+
+    .bestSellers {
+        margin-bottom: 0px;
+    }
+  
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1250px) {
+ 
+   
+  }
+  
+
+
+
+
+
+
+

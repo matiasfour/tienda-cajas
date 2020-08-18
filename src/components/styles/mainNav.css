@@ -1,0 +1,352 @@
+.navContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+
+
+
+   
+}
+
+.navContainer button, .navContainer a {
+    border-radius: 5px;
+}
+
+
+
+.headerTop {
+    
+   
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  
+}
+
+.top-container {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left, .right  {
+    display: flex;
+
+}
+
+
+
+.username {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.admin {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.admin:hover {
+    text-decoration: none;
+    color:white
+}
+
+
+
+.search {
+    width: 200px;
+    height: 25px;
+}
+
+.login {
+    width: 300px;
+    text-align: center;
+   
+}
+
+.logout {
+    font-size: 20px;
+}
+
+.login a, .btnPedidos a {
+    background-color: rgb(196, 196, 196);
+    color:black;
+    font-size: 18px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.loginData {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 60px;
+}
+
+.carrito {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.carritoNom {
+    margin-top: 10px;
+}
+
+
+.carrito a {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black
+}
+
+.carrito .numero {
+    background-color: green;
+    padding: 8px;
+    color: greenyellow;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+  
+}
+
+
+
+.logo {
+    
+    margin-top: 10px;
+  
+}
+
+
+.navContainer nav {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    width: 100%;
+   
+}
+
+.navContainer nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navContainer nav ul li {
+    list-style: none;
+    padding: 10px 20px;
+  
+}
+
+.navContainer nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.navContainer li:hover a {
+    color: white;
+}
+.navContainer li:hover {
+    background-color: rgb(64, 64, 95);
+}
+
+.nav-inner-container {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #eeeeee;
+    align-items: center;
+
+}
+
+
+button {
+    border: none
+}
+
+
+/* top-container for media queries */
+
+.top-container-m {
+    display: none;
+}
+
+.second-nav {
+    display: none;
+}
+
+
+
+
+
+/* media queries */ 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)  {
+
+    .navContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 500px;
+    }
+
+
+   
+   
+
+    .top-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 300px;
+      
+
+    }
+
+    .nav-inner-container {
+        height: 200px;
+    }
+
+    
+    .nav-inner-container nav ul {
+        display: flex;
+    }
+
+    .nav-inner-container nav ul li a {
+        font-size: 12px;
+    }
+
+    .divLi {
+        text-align: left;
+    }
+
+
+    .login {
+        width: 300px;
+        margin-left: 50px;
+    }
+
+ }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) and (max-width: 767px) {
+  
+    .navContainer {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 500px;
+    }
+
+
+   
+   
+
+    .top-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 300px;
+      
+
+    }
+
+    .nav-inner-container {
+        height: 200px;
+    }
+
+    
+
+    .nav-inner-container nav ul {
+        display: flex;
+    }
+
+    .nav-inner-container nav ul li a {
+        font-size: 15px;
+    }
+
+    .divLi {
+        text-align: left;
+    }
+
+    .login {
+        width: 300px;
+        margin-left: 50px;
+       
+    }
+              
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+
+
+    .nav-inner-container nav ul {
+        display: flex;
+    }
+
+    .nav-inner-container nav ul li a {
+        font-size: 18px;
+    }
+
+    .divLi {
+        text-align: left;
+    }
+
+    .login {
+        width: 300px;
+        margin-left: 50px;
+    }
+
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width: 1249px) {
+      .divLi {
+          display: flex;
+          width: 500px;
+          justify-content: space-around;
+      }
+  
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1250px) {
+    .divLi {
+        display: flex;
+        width: 500px;
+        justify-content: space-around;
+    }
+   
+  }
+  
+
+
+
+
+

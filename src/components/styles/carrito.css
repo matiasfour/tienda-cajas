@@ -1,0 +1,407 @@
+.cartContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cartContainer h2 {
+    margin-top: 20px;
+}
+
+.tableCart {
+    width: 1000px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.tableCart td {
+    border: 1px solid black;
+    height: 120px;
+}
+
+
+.tableCart td img {
+    width: 70px;
+}
+
+.nombreCart {
+    width: 150px;
+    
+
+}
+
+
+
+.nomfoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tableCart tr:nth-child(even) {background: rgb(243, 241, 241)}
+.tableCart tr:nth-child(odd) {background: #FFF}
+
+.descripcionCart {
+    width: 300px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.precioCart {
+    width: 100px;
+}
+
+.tableCart i {
+    font-family: 'Josefin Sans';
+}
+
+
+
+.totalContainer {
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: rgb(70, 70, 138);
+    color: white;
+}
+
+.total {
+   
+    font-size: 40px;
+}
+
+.btnComprar {
+    background-color: white;
+    border-radius: 5px;
+    color: blue;
+    padding: 10px 15px;
+    
+}
+
+.containerComprar {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 300px;
+}
+
+.containerComprar p {
+    margin-top: 15px;
+}
+
+.pagar {
+    background-color: white;
+    border-radius: 5px;
+    color: blue;
+    padding: 10px 15px;
+}
+
+.entrega {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-around;
+
+}
+
+.entrega input {
+    height: 30px;
+    font-size: 18px;
+}
+
+.entrega select {
+    font-size: 25px;
+}
+
+
+/* carrito alternativo */
+
+
+.alt-cart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.alt-cart-item {
+    display: flex;
+
+    min-height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.alt-cart-item img {
+    width: 21%;
+}
+
+.alt-nombre {
+    width: 12.5%;
+    text-align: left;
+    font-size: 18px ;
+   
+}
+
+.alt-descripcion {
+    width: 350px;
+    text-align: left;
+    width: 21%;
+}
+.alt-precio {
+    font-size: 30px;
+    width: 15%;
+}
+
+.alt-inputs {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.alt-cart-item input {
+
+    height: 40px;
+    font-size: 20px;
+}
+
+.alt-cart-item button {
+
+    height: 40px;
+    font-size: 20px;
+}
+
+.alt-total {
+    width: 15%;
+    
+}
+
+
+
+
+
+/* media queries */ 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)  {
+
+    .tableCart {
+        display: none;
+    }
+
+    .alt-cart-item {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        margin-bottom: 8px;
+    }
+
+    .alt-cart-item img {
+        width: 60%;
+    }
+    .alt-nombre {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .alt-precio {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .alt-descripcion {
+        font-size: 15px;
+        width: 80%;
+    }
+    .alt-inputs {
+        width: 80%;
+
+    }
+    .alt-inputs button {
+        margin-top: 20px;
+    }
+
+    .alt-total {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .totalContainer {
+        margin-top: 30px;
+    }
+
+    .totalContainer p {
+        font-size: 22px;
+    }
+
+    .entrega {
+        width: 80%;
+    }
+
+    .pagar {
+        font-size: 22px;
+  
+        
+    }
+
+
+    .containerComprar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+ }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) and (max-width: 767px) {
+
+    .tableCart {
+        display: none;
+    }
+
+    .alt-cart-item {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        margin-bottom: 8px;
+    }
+
+    .alt-cart-item img {
+        width: 60%;
+    }
+    .alt-nombre {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .alt-precio {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .alt-descripcion {
+        font-size: 15px;
+        width: 80%;
+    }
+    .alt-inputs {
+        width: 80%;
+
+    }
+    .alt-inputs button {
+        margin-top: 20px;
+    }
+
+    .alt-total {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .totalContainer {
+        margin-top: 30px;
+    }
+
+    .totalContainer p {
+        font-size: 30px;
+    }
+
+    .pagar {
+        font-size: 30px;
+    }
+              
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .tableCart {
+        display: none;
+    }
+
+    .alt-cart-item {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        margin-bottom: 8px;
+    }
+
+    .alt-cart-item img {
+        width: 60%;
+    }
+    .alt-nombre {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .alt-precio {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .alt-descripcion {
+        font-size: 15px;
+        width: 80%;
+    }
+    .alt-inputs {
+        width: 80%;
+
+    }
+    .alt-inputs button {
+        margin-top: 20px;
+    }
+
+    .alt-total {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 35px;
+    }
+
+    .totalContainer {
+        margin-top: 30px;
+    }
+
+    .totalContainer p {
+        font-size: 40px;
+    }
+
+    .pagar {
+        font-size: 40px;
+    }
+       
+
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width: 1249px) {
+
+    .tableCart {
+        display: none;
+    }
+       
+  
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1250px) {
+    .tableCart {
+        display: none;
+    }
+   
+  }
+  
+
+
+
+
+
+
+

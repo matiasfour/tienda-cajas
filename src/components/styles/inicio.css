@@ -1,0 +1,121 @@
+.inicioContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.portada {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    background-color:#ebe2e2;
+    background-image: url('../imgs/portada1.png');
+    height: 441px;
+    
+}
+
+.portada2 {
+   width: 100%;
+   height: 441px;
+}
+
+.linkPortada {
+    background-color: rgb(95, 95, 95);
+    color: white;
+    font-size: 20px;
+    padding: 25px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 200px;
+    margin: 50px;
+    
+}
+
+.linkPortada:hover {
+
+    background-color: rgb(71, 71, 71);
+    text-decoration: none;
+    color: white;
+}
+
+.imgCarousel {
+    width: 100%;
+    height: 441px
+}
+
+.captionCarouselItem {
+    background-color: grey;
+    color: white;
+    padding: 15px 10px;
+    width: 120px;
+    text-decoration: none;
+    
+}
+
+
+
+
+/* media queries */ 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)  {
+
+    .imgCarousel {
+        width: 100%;
+        height: 150px;
+    }
+  
+
+ }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) and (max-width: 767px) {
+  
+    .imgCarousel {
+        width: 100%;
+        height: 250px;
+    }
+
+
+              
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .imgCarousel {
+        width: 100%;
+        height: 300px;
+    }
+       
+
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width: 1249px) {
+
+    .imgCarousel {
+        width: 100%;
+        height: 400px;
+    }
+       
+  
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1250px) {
+ 
+   
+  }
+  
+
+
+
+
+
+
+
+

@@ -1,0 +1,287 @@
+.mainContacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services {
+    margin-top: 20px;
+}
+
+
+.form-mensaje {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 1000px;
+    height: 900px;
+    border: 1px solid rgb(151, 110, 110);
+    background-color: rgb(240, 240, 240);
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.form-mensaje-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.infoForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.infoForm label, .infoForm input , .mensaje label {
+    font-size: 20px;
+}
+
+.infoForm input {
+    width: 230px;
+    border: 1px solid gray;
+    height: 35px;
+}
+
+.infoForm input:focus {
+    outline-color: blue;
+}
+
+.infoForm div {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.mensaje {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.enviarInfo {
+    width: 300px;
+    padding-top: 15px ;
+    background-color: blue;
+    color: white;
+    margin-top: 15px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.enviarInfo:hover {
+    background-color: rgb(1, 1, 138);
+}
+
+.telefono {
+    margin-top: 10px;
+}
+
+.telefono p {
+    font-size: 50px;
+    align-self: center;
+}
+
+
+
+
+/* media queries */ 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)  {
+
+    .mainContacto {
+        width: 100%;
+        height: 1100px;
+        border: none;
+      
+       
+      
+    }
+
+    .services {
+        font-size: 20px;
+    }
+
+    .form-mensaje {
+        height: 1000px;
+        width: 100%;
+        margin-bottom: 0px;
+        border: none;
+        border-bottom: 1px solid rgb(189, 189, 189);
+ 
+    }
+
+   
+    .form-mensaje-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+    }
+
+    .form-mensaje-container textarea {
+        width: 60%;
+        height: 200px;
+        align-self: center;
+    }
+
+    .infoForm {
+        height: 300px;
+ 
+    }
+
+    .telefono {
+        margin: 0px;
+        margin-top: 30px;
+    }
+
+ 
+
+    
+
+    .telefono i {
+        font-size: 40px;
+        
+    }
+    .telfono p {
+        font-size: 15px;
+        margin: 0px;
+    }
+
+  
+
+ }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) and (max-width: 767px) {
+    
+    .mainContacto {
+        width: 100%;
+        height: 1100px;
+        border: none;
+        border-bottom: 1px solid black;
+      
+       
+      
+    }
+
+    .services {
+        font-size: 22px;
+    }
+
+    .form-mensaje {
+        height: 1000px;
+        width: 100%;
+        margin-bottom: 0px;
+        border: none;
+        border-bottom: 1px solid rgb(189, 189, 189);
+ 
+    }
+
+   
+    .form-mensaje-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+    }
+
+    .form-mensaje-container textarea {
+        width: 60%;
+        height: 200px;
+        align-self: center;
+    }
+
+    .infoForm {
+        height: 300px;
+ 
+    }
+
+    .telefono {
+        margin: 0px;
+        margin-top: 30px;
+    }
+
+    .telefono i {
+        font-size: 40px;
+        
+    }
+    .telfono p {
+        font-size: 15px;
+        margin: 0px;
+    }
+  
+              
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .mainContacto {
+        width: 100%;
+        height: 800px;
+        border-bottom: 1px solid red;
+      
+       
+      
+    }
+
+    .services {
+        font-size: 22px;
+    }
+
+    .form-mensaje {
+      
+        height: 1000px;
+        width: 100%;
+        margin-bottom: 0px;
+        border: none;
+        border-bottom: 1px solid black;
+ 
+    }
+
+    .form-mensaje-container textarea {
+        width: 70%;
+        height: 200px;
+        align-self: center;
+    }
+
+    .form-mensaje-container {
+        display: flex;
+        justify-content: space-around;
+  
+    }
+
+    .infoForm {
+        width: 200px;
+    }
+
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width: 1249px) {
+
+  
+       
+  
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1250px) {
+ 
+   
+  }
+  
+
+
+
+
+
+
+

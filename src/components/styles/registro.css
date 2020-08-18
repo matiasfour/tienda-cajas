@@ -1,0 +1,85 @@
+.iniciarSesionContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(252, 252, 252);
+    align-items: center;
+}
+
+.iniciarSesionContainer h2 {
+    margin-top: 20px;
+}
+
+form, .form {
+
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: white;
+}
+
+
+
+
+form input, .form input {
+    width: 150px;
+    height: 25px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+
+.form-add-stock {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form-add-stock input, .form-add-stock select {
+    width: 250px;
+    height: 30px;
+    font-size: 25px;
+}
+
+.form-add-stock button {
+    width: 250px;
+    background-color: rgb(226, 226, 226);
+    color: black;
+    font-size: 25px;
+}
+
+
+.form-add-stock .file {
+    width: 60%;
+    font-size: 15px;
+    
+}
+
+
+
+
+
+form input:focus, .form input:focus {
+    outline: none
+}
+
+form button, .form button {
+    width: 150px;
+    border-radius: 2px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-family: 'Josefin Sans';
+}
+

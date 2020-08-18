@@ -1,0 +1,131 @@
+.mainPedidos {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    min-height: 700px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.listPedido {
+    border-bottom: 1px solid gray;
+     width: 100%;
+     margin-bottom: 20px;
+}
+
+.pedido {
+   
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.mainDetalle {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.mainDetalle b {
+    font-size: 22px;
+}
+
+.detalle {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+/* media queries */ 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)  {
+
+    .mainPedidos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        min-height: 700px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .pedido {
+   
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    
+    }
+ 
+
+ }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) and (max-width: 767px) {
+  
+    .mainPedidos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        min-height: 700px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .pedido {
+   
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    
+    }
+
+
+              
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+
+ 
+       
+
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width: 1249px) {
+
+  
+       
+  
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1250px) {
+ 
+   
+  }
+  
+
+
+
+
+
+
+
+
+
